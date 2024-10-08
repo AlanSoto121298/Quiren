@@ -1,0 +1,1741 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    /*todo el fondo */
+    background: #f0f0f0;
+    height: 100%;
+    width: 100%;
+    background-image: url(imgs/Fondo.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.header {
+    /*aqui acomodamos el header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    list-style: none;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background: linear-gradient(0deg, rgba(54, 54, 54, 0.15), rgb(54, 54, 54));
+    z-index: 100;
+
+}
+
+.quiren-div-logo-nav img {
+    /* aqui es el tamaño del logo del nav */
+    height: 60px;
+    width: 70px;
+}
+
+.nav {
+    /* acomodo del nav */
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+}
+
+.nav-link {
+    /* cambio de las letras del nav */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 12px;
+
+}
+
+.nav-menu {
+    /* acomodo de toda la clase, todos los li */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.nav-menu-item {
+    /* aqui editamos el margen del menu */
+    margin: 0 9px;
+
+
+}
+
+.nav-menu-link {
+    /* espacio entre las letras */
+    padding: 8px 12px;
+}
+
+.nav-menu-link:hover {
+    /* pa cambiarle el color cuando pases x arriba */
+    color: #02C959;
+    transition: 0.5s;
+    background: #f0f0f099;
+    box-shadow: 20px 20px 80px 0 #f0f0f0;
+
+}
+
+/* TOGGLE qlero q me hizo batallar  */
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none;
+}
+
+.quiren-div-logo {
+    /*este es el div del logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiren-div-logo img {
+    /*esta es la imagen del logo */
+    width: 1156px;
+    height: 318px;
+    margin-top: 180px;
+}
+
+.quiren-div-slogan {
+    /*el slogan construyendo con fortaleza */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 10px;
+}
+
+.quiren-div-filosofia {
+    /*aqui encontramos las 3 cajas en un div */
+    width: 100%;
+    height: 100%;
+    background: #f0f0f099;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 60px 20px;
+}
+
+.quiren-div-mision {
+    /*este es el puro div de mision */
+    width: 20%;
+    height: 40%;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.quiren-div-mision h2 {
+    /*aqui es el titulo de mision q mas idiota */
+    text-align: center;
+    padding: 15px 0;
+}
+
+.quiren-div-mision h2:hover {
+    /* aqui igual titulo pa que le pases el mouse se vea verde */
+    text-align: center;
+    color: #009541;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.quiren-div-mision img {
+    /* logo de la mision */
+    width: 100px;
+    height: 98px;
+}
+
+
+.quiren-div-valores-aptitudes {
+    /*el div de valores, recuerda acomodar */
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    list-style: none;
+
+}
+
+.group {
+    /*como vemos es la clase para hacer separación en valores y aptitudes */
+    display: inline-block;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.quiren-div-valores-aptitudes img {
+    /*aqui encontramos el puro logo */
+    width: 75px;
+    height: 83px;
+}
+
+.quiren-div-valores-aptitudes h2 {
+    /*el titulo de valores */
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.quiren-div-valores-aptitudes h2:hover {
+    /*pak se vea monito cuando pasas el mouse */
+    text-align: center;
+    color: #009541;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.quiren-div-vision {
+    /*aqui el div de vision */
+    width: 20%;
+    height: 40%;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.quiren-div-vision h2 {
+    /*el titulo de vision */
+    text-align: center;
+    padding: 15px 0;
+}
+
+.quiren-div-vision h2:hover {
+    /*pak se vea monito el titulo cuando pasasss el mouse */
+    text-align: center;
+    color: #009541;
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
+.quiren-div-vision img {
+    /*el puro logo de vision */
+    width: 108px;
+    height: 73px;
+}
+
+.quiren-div-galeria {
+    /*aqui encontramos todo el contenedor de galeria */
+    width: 100%;
+    background: #f0f0f099;
+    text-align: center;
+    margin-top: 100px;
+    padding: 60px 0;
+}
+
+.quiren-div-galeria h2 {
+    font-size: 30px;
+}
+
+.quiren-img-linea {
+    /*div verde  o sea la linea*/
+    width: 80%;
+    height: 10px;
+    background: #009541;
+    border-radius: 2em;
+    margin: 20px 0 60px 0;
+}
+
+/* aqui editamos el carrusel */
+.swiper-hero {
+    width: 100%;
+    max-width: 1400px;
+
+}
+
+.swiper-hero .swiper-slide {
+    width: 250px;
+}
+
+.swiper-hero img {
+    height: 295px;
+    width: 75%;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.swiper-hero :hover .overlay {
+    height: 20%;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #393939;
+    width: 100%;
+    overflow: hidden;
+}
+
+.overlay p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+.swiper-hero .swiper-button-prev,
+.swiper-hero .swiper-button-next {
+    --swiper-navigation-size: 20px;
+    background-color: white;
+    height: 70px;
+    width: 50px;
+    margin-top: -35px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.swiper-hero .swiper-button-prev {
+    border-radius: 0 65px 65px 0;
+    left: -10px;
+}
+
+.swiper-hero .swiper-button-next {
+    border-radius: 65px 0 0 65px;
+    right: -10px;
+}
+
+.swiper-hero:hover .swiper-button-prev,
+.swiper-hero:hover .swiper-button-next {
+    opacity: 1;
+}
+
+.swiper-hero .swiper-pagination {
+    --swiper-pagination-color: white;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-inactive-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 0.25;
+    --swiper-pagination-bullet-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 2px;
+}
+
+.swiper-hero .swiper-pagination-bullet {
+    box-shadow: inset 0 0 0 1px #fff;
+}
+
+.swiper-hero .swiper-pagination-bullet-active {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+/*aqui termina el carrusel */
+.quiren-div-ubicacion {
+    /* aqui se edita el puro div de ubicacion */
+    height: 800px;
+    width: 100%;
+    background-image: url(imgs/FONDO\ UBICACION.png);
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 70px;
+
+
+}
+
+.iframe {
+    /* el mapa del google xdd */
+    width: 100%;
+    height: 100%;
+}
+
+.quiren-div-ubicacion h2 {
+    /*el titulo de ubicacion */
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.quiren-img-linea-ubicacion {
+    /*DIV ( linea verde )*/
+    width: 80%;
+    height: 10px;
+    background: #009541;
+    border-radius: 2em;
+    margin: 20px 0 60px 0;
+}
+
+.quiren-div-certificados {
+    /*aqui va todo el div de certificados */
+    height: 600px;
+    width: 100%;
+    background: #f0f0f099;
+    text-align: center;
+    margin-top: 90px;
+    overflow-y: scroll;
+    padding-top: 70px;
+
+
+}
+
+.quiren-div-certificados h2 {
+    /*aqui editamos el titulo */
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+.quiren-img-linea-certificados {
+    /*DIV ( linea verde )*/
+    width: 80%;
+    height: 10px;
+    background: #009541;
+    border-radius: 2em;
+    margin: 20px 0 60px 0;
+}
+
+.quiren-div-certificados p {
+    /*aqui se edita todo el contenido del div , letras */
+    text-align: justify;
+    line-height: 60px;
+    margin: 80px;
+}
+
+.quiren-div-imagenes-certificados {
+    /*aqui va el contenedor que engloba las imagenes de los certificados */
+    height: 70%;
+    width: 100%;
+    background-position: 1000%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.quiren-div-logo-nom {
+    /*aqui va el primer div del logo NOM */
+    width: 300px;
+    height: 50%;
+
+}
+
+.quiren-div-logo-nom img {
+    /*aqui vamos editar la imagen primer logo NOM */
+    width: 294px;
+    height: 294px;
+}
+
+.quiren-div-logo-din {
+    /*aqui va el segundo div del  logo DIN */
+    width: 300px;
+    height: 70%;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.quiren-div-logo-din img {
+    /*aqui se va editar la imagen del logo DIN */
+    width: 201px;
+    height: 192px;
+    margin: auto;
+}
+
+.quiren-div-logo-iso {
+    /*aqui va el tercer div del logo ISO */
+    width: 300px;
+    height: 50%;
+    margin-top: 55px;
+}
+
+.quiren-div-logo-iso img {
+    /*aqui se va editar la imagen del logo ISO */
+    width: 312px;
+    height: 177px;
+
+}
+
+.quiren-div-logo-ansi {
+    /*aqui va el cuarto div del logo ANSI*/
+    width: 300px;
+    height: 20%;
+
+
+}
+
+.quiren-div-logo-ansi img {
+    /*aqui  se va editar  el cuarto logo ANSI*/
+    width: 314px;
+    height: 314px;
+    margin-top: -35px;
+
+}
+
+.quiren-div-logo-nyce {
+    /*aqui va el div del  quinto logo NYCE*/
+    width: 300px;
+    height: 50%;
+    margin-top: 35px;
+    display: flex;
+}
+
+.quiren-div-logo-nyce img {
+    /*aqui va el div del  quinto logo NYCE*/
+    width: 231px;
+    height: 231px;
+    margin: auto;
+}
+
+/*aqui empieza todo el modulo de contacto */
+.quiren-div-contacto {
+    /*aqui vamos editar el div del modulo contacto */
+    background: #f0f0f099;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+
+}
+
+.quiren-div-titulo-contacto {
+    /*aqui vemos el div del titulo contactanos */
+    height: 20%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.quiren-div-titulo-contacto h2 {
+    /* aqui editamos el titulo  CONTACTANOS */
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+.quiren-img-linea-titulo-contacto {
+    /*el div verde abajo de contactanos */
+    width: 750px;
+    height: 10px;
+    background: #009541;
+    border-radius: 2em;
+    position: absolute;
+    bottom: 0;
+    /* Alinea eior del elemento padre (.quiren-div-titulo-contacto) */
+    left: 50%;
+    /* Centra el div horizontalmente */
+    transform: translateX(-50%);/
+}
+
+.quiren-img-linea-contacto {
+    /* aqui editamos la linea verde del div*/
+    width: 80%;
+    height: 10px;
+    background: #009541;
+    border-radius: 2em;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.quiren-div-izquierda {
+    /*aqui esta el div izquierdo padre */
+    flex: 1;
+    width: 50%;
+    height: 550px;
+    margin-right: 10px;
+    margin-left: 60px;
+    margin-top: 170px;
+  
+    
+    
+}
+
+.quiren-div-email {
+    /*aqui editamos el primer div hijo */
+    height: 130px;
+    width: 100%;
+    margin-top: 10px;
+    background-image: url(imgs/fondo-contactanos.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+.grua{
+    display: none;
+}
+.grua1{
+    display: none;
+}
+.grua2{
+    display: none;
+}
+.quiren-div-texto-email{
+    width: 40%;
+    margin: auto;
+    margin-left: 20%;
+    
+}
+
+.imagen-titulo-email{
+    height: 90%;
+    width: 20%;
+
+    margin:auto;
+    margin-right: 15%;
+}
+.imagen-titulo-email img {
+    /*este div edita el tamaño de la imagen email */
+    width: 106px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+
+}
+
+.imagen-titulo-email h3 {
+    /*este div edita la posicion del h3 de email */
+    font-size: 22px;
+    margin: auto;
+}
+
+
+.imagen-titulo-email h3:hover {
+    /*hover para email */
+    font-size: 24px;
+    color: #009541;
+    transition: 0.5s;
+}
+.imagen-titulo-telefono h3:hover {
+    /*hover para telefono de contacto */
+    font-size: 24px;
+    color: #009541;
+    transition: 0.5s;
+}
+.imagen-titulo-direccion h3:hover {
+    /*hover para direccion */
+    font-size: 24px;
+    color: #009541;
+    transition: 0.5s;
+}
+
+.quiren-div-telefono {
+    /*aqui editamos el segundo div hijo */
+    height: 130px;
+    width: 100%;
+    margin-top: 30px;
+    background-image: url(imgs/fondo-contactanos.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.quiren-div-grua1{
+    display: none;
+}
+.imagen-titulo-telefono{
+    height: 90%;
+    width: 20%;
+    margin: auto;
+}
+.imagen-titulo-telefono img {
+    /*este div edita el tamaño de la imagen telefono */
+    width: 75px;
+    height: 70px;
+    margin:  auto;
+    display: flex;
+    margin-top: 10px;
+}
+
+.imagen-titulo-telefono h3 {
+    /*este div edita la posicion del h3 de telefono */
+    font-size: 22px;
+    margin: auto;
+    margin-top: 2px;
+    
+}
+
+.quiren-div-texto-telefono{
+    margin: auto;
+    margin-right: 10px;
+ }
+
+.quiren-div-direccion {
+    /* aqui editamos el tercer div hijo */
+    height: 130px;
+    width: 100%;
+    margin-top: 30px;
+    background-image: url(imgs/fondo-contactanos.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.quiren-div-grua2{
+    display: none;
+}
+
+.quiren-div-texto-direccion{
+    /*div para ajustar el texto de direccion  */
+    width: 40%;
+    margin: auto;
+    margin-left: 20%;
+}
+.imagen-titulo-direccion{
+    height: 90%;
+    width: 20%;
+    margin:auto;
+    margin-right: 15%;
+}
+.imagen-titulo-direccion img {
+    /*este div edita el tamaño de la imagen de direccion */
+    width: 84px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+   
+
+}
+
+.imagen-titulo-direccion h3 {
+    /*este div edita la posicion del h3 de direccion */
+    font-size: 20px;
+    margin: auto;
+    margin-top: 2px;
+    
+}
+
+
+.quiren-div-derecha {
+    /*aqui empezamos con el div de la derecha */
+    flex: 1;
+    width: 50%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-right: 10px;
+}
+textarea{
+    padding: 10px;
+}
+.quiren-form {
+    /*se edita todo el formulario */
+    display: flex;
+    flex-direction: column;                                    
+    height: 85%;
+    width: 80%;
+    padding: 20px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    
+
+}
+
+.quiren-form label {
+    /*se editan los label */
+    margin-bottom: 10px;
+}
+
+.quiren-form input,
+.quiren-form button {
+    /*editamos los input y el boton al mismo tiempo */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.quiren-form textarea {
+    /*editamos el text area */
+    min-height: 120px;
+    resize: none;
+}
+
+.quiren-form button {
+    /*editamos el botton */
+    background: #02C959;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+
+
+}
+
+.quiren-form button:hover {
+    /*cuando pasemos por arriba el mouse */
+    background-color: #009541;
+}
+
+.quiren-form button:active {
+    /*cuando seleccionemos el boton */
+    background: #037D38;
+}
+
+/*aqui termina el modulo de contacto */
+
+hr {
+    /*aqui es la rayita  separadora */
+    color: #02C959;
+    width: 90%;
+    margin: auto;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.quiren-div-texto-final {
+    /*ps el texto de abajo cual mas invezil */
+    margin-bottom: 30px;
+}
+
+.quiren-div-texto-final p {
+    font-size: 12px;
+}
+
+.quiren-button-toggle {
+    display: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+
+}
+/* Estilos del modal, MENSAJE QUE APARECE AL ENVIAR */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content {
+    background-image: url(imgs/FONDO-ENVIAR.png);
+    background-size: 100% 100%; /* Ajustar la imagen al tamaño del div */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+  }
+  .mensaje-img{
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+
+#modalMessage{
+    font-size: 20px;
+    margin-left: 39%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* Botón de cierre (×) en la esquina superior derecha */
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  /* aqui va el msj de ERROR AL MANDAR  */
+  .modal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content2 {
+    background-image: url(imgs/FONDO-ENVIAR.png);
+    background-size: 100% 100%; /* Ajustar la imagen al tamaño del div */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+  }
+  .mensaje-img2{
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+
+#modalMessage2{
+    font-size: 20px;
+    margin-left: 39%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* Botón de cierre (×) en la esquina superior derecha */
+  .close2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+/*aqui vamos empezar para que se vea en tablet */
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+    .nav-link {
+        /*aqui tenemos pa editar la letra del header */
+        font-size: 17px;
+    }
+
+    .quiren-div-logo img {
+        /*aqui tenemos pa editar el logo dle header */
+        height: 201px;
+        width: 714px;
+    }
+
+    .quiren-div-slogan {
+        /*aqui tenemos pa editar la letra del Slogan */
+        font-size: 10px;
+    }
+
+    .quiren-div-mision p {
+        font-size: 12px;
+    }
+
+    .quiren-div-mision h2 {
+        /*aqui tenemos pa editar la letra de mision */
+        font-size: 20px;
+    }
+
+    .quiren-div-mision h2:hover {
+        /*aqui tenemos pa editar la letra de mision y de efecto al dar click */
+        font-size: 23px;
+    }
+
+    .quiren-div-valores-aptitudes {
+        font-size: 12px;
+    }
+
+    .quiren-div-valores-aptitudes h2 {
+        /*aqui tenemos pa editar la letra de valores etc */
+        font-size: 20px;
+    }
+
+    .quiren-div-valores-aptitudes h2:hover {
+        /*aqui tenemos pa editar la letra de valores y se haga mas grande*/
+        font-size: 23px;
+    }
+
+    .quiren-div-vision {
+        font-size: 12px;
+    }
+
+
+    .quiren-div-vision h2 {
+        /*aqui tenemos pa editar la letra de vision */
+        font-size: 20px;
+    }
+
+    .quiren-div-vision h2:hover {
+        /*aqui tenemos pa editar la letra hacerla mas grande*/
+        font-size: 23px;
+    }
+
+    
+
+    .quiren-div-galeria h2 {
+        font-size: 20px;
+    }
+
+
+    .quiren-div-ubicacion {
+        /*aqui tenemos pa editar el div de ubicacion */
+        width: 100%;
+        height: 500px;
+        margin-top: 80px;
+        padding-top: 80px;
+
+    }
+
+    .quiren-div-ubicacion h2 {
+        /*aqui tenemos pa editar la letra */
+        font-size: 20px;
+    }
+
+    .iframe {
+        /*aqui tenemos pa editar el tamaño de google */
+        width: 100%;
+        height: 80%;
+    }
+
+    .quiren-div-certificados {
+        /*aqui tenemos pa editar el div de certificados */
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        border-radius: 0%;
+        border: 4px;
+        margin-top: 50px;
+        padding-top: 70px;
+
+    }
+
+    .quiren-div-certificados h2 {
+        /*aqui tenemos pa editar la letra */
+        font-size: 20px;
+    }
+
+    .quiren-div-imagenes-certificados {
+        /*aqui tenemos pa editar el div de todos los logos inferiores */
+        margin-bottom: 20px;
+
+
+    }
+
+    .quiren-div-certificados p {
+        /*aqui tenemos pa editar la letra */
+        font-size: 12px;
+        line-height: 50px;
+    }
+
+    /*aqui tenemos pa editar todos los logos*/
+    .quiren-div-logo-nom {
+        width: 157px;
+        height: 157px;
+        margin-bottom: 100px;
+    }
+
+    .quiren-div-logo-din {
+        width: 107px;
+        height: 102px;
+        margin-top: 50px;
+    }
+
+    .quiren-div-logo-din img {
+        margin: auto;
+    }
+
+    .quiren-div-logo-iso {
+        width: 167px;
+        height: 94px;
+    }
+
+    .quiren-div-logo-ansi {
+        height: 168px;
+        width: 95px;
+    }
+
+    .quiren-div-logo-nyce {
+        height: 123px;
+        width: 123px;
+    }
+    /*aqui empieza el modulo de contacto para tablet */
+
+    .quiren-div-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .quiren-img-linea-titulo-contacto{
+        position: relative;
+    }
+    .quiren-div-izquierda {
+        /*aqui esta el div izquierdo padre */
+        width: 100%;
+        height: 50%;
+        margin-left: 0px;
+        
+    }
+    .quiren-div-email{
+        height: 180px;
+        
+    }
+    .imagen-titulo-email{
+        height: 60%;
+        width: 20%;
+        margin-right: 200px;
+    }
+    .quiren-div-texto-email{
+        text-align: center;
+        font-size: 22px;
+    }
+    .imagen-titulo-telefono{
+        height: 60%;
+        width: 20%;
+        margin-right: 200px;
+    }
+    .quiren-div-texto-telefono{
+       margin: auto;
+       margin-left: 300px;
+       font-size: 22px;
+    }
+    .imagen-titulo-direccion{
+        height: 60%;
+        width: 20%;
+        margin-right: 200px;
+    }
+    .quiren-div-telefono{
+        height: 180px;
+    }
+    .quiren-div-grua1{
+        display: none;
+    }
+    .quiren-div-direccion{
+        height: 180px;
+    }
+    .quiren-div-texto-direccion{
+        margin: auto;
+        margin-left: 200px;
+        font-size: 22px;
+    }
+    .quiren-div-derecha{
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    .quiren-div-grua{
+        display: none;
+    }
+    .quiren-div-grua1{
+        display: none;
+    }
+    .quiren-div-grua2{
+        display: none;
+    }
+
+
+    footer {
+        font-size: 15px;
+        margin: 12px;
+    }
+    /*boton de mensaje al enviar */
+
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+      
+      .modal-content {
+        background-image: url(imgs/FONDO-ENVIAR.png);
+        background-size: 100% 100%; /* Ajustar la imagen al tamaño del div */
+        background-repeat: no-repeat; /* Evitar que la imagen se repita */
+        margin: 80% auto;
+        padding: 20px;
+        border-radius: 5px;
+        width: 40%;
+        height: 20%;
+        text-align: center;
+        position: relative;
+      }
+      .mensaje-img{
+        width: 30%;
+        margin-top: 30px;
+        margin-left: 130px;
+      }
+    
+    #modalMessage{
+        font-size: 30px;
+        margin-left: 39%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      /* Botón de cierre (×) en la esquina superior derecha */
+      .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+      }
+      /* aqui va el msj de ERROR AL MANDAR  */
+  .modal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content2 {
+    background-image: url(imgs/FONDO-ENVIAR.png);
+    background-size: 100% 100%; /* Ajustar la imagen al tamaño del div */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    margin: 70% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+  }
+  .mensaje-img2{
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 160px;
+  }
+
+#modalMessage2{
+    font-size: 30px;
+    margin-left: 39%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* Botón de cierre (×) en la esquina superior derecha */
+  .close2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+      
+
+}
+
+
+/* aqui empezamos con el diseño para movil */
+
+@media (min-width: 320px) and (max-width:768px) {
+
+    /*aqui empezamos con el header */
+    .header {
+        height: 50px;
+        background: linear-gradient(0deg, rgba(54, 54, 54, 0.15), rgb(54, 54, 54));
+    }
+
+    .quiren-div-logo-nav img {
+        height: 45px;
+        width: auto;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background: linear-gradient(0deg, rgba(1, 1, 1, 0.15), rgb(54, 54, 54));
+        background: #828282;
+        position: fixed;
+        top: 50px;
+        width: 50%;
+        padding: 20px 0;
+        height: calc(75% - 40px);
+        right: 100%;
+
+    }
+
+    .nav-menu-link:hover {
+        /* pa cambiarle el color cuando pases x arriba */
+        background: #02C959;
+        color: black;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .nav-menu-item {
+        line-height: 70px;
+    }
+
+
+    .nav-toggle {
+        display: block;
+        color: rgb(255, 255, 255);
+    }
+
+    .nav-menu_visible {
+        right: 0;
+    }
+
+    .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    /*aqui termina el header aiuda xfavor ya me desespero */
+    .quiren-div-logo img {
+        width: 324px;
+        height: 91px;
+    }
+
+    .quiren-div-slogan h1 {
+        font-size: 12px;
+    }
+
+    .quiren-div-filosofia {
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .quiren-div-mision {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        flex: 1;
+        order: 2;
+    }
+
+    .quiren-div-mision h2 {
+        font-size: 15px;
+    }
+
+    .quiren-div-mision h2:hover {
+        font-size: 17px;
+    }
+
+    .quiren-div-mision p {
+        font-size: 12px;
+    }
+
+    .quiren-div-mision img {
+        width: 39px;
+        height: 38px;
+
+    }
+
+    .quiren-div-valores-aptitudes {
+        height: 20%;
+        width: 100%;
+        margin-top: 5px;
+        flex: 1;
+        order: 1;
+        font-size: 12px;
+    }
+
+    .quiren-div-valores-aptitudes h2 {
+        font-size: 15px;
+    }
+
+    .quiren-div-valores-aptitudes h2:hover {
+        font-size: 17px;
+    }
+
+    .quiren-div-valores-aptitudes img {
+        width: 30px;
+        height: 33px;
+    }
+
+    .quiren-div-vision {
+        justify-content: justify;
+        height: 100%;
+        width: 100%;
+        flex: 1;
+        order: 3;
+    }
+
+    .quiren-div-vision h2 {
+        font-size: 15px;
+    }
+
+    .quiren-div-vision h2:hover {
+        font-size: 17px;
+    }
+
+    .quiren-div-vision p {
+        font-size: 12px;
+    }
+
+    .quiren-div-vision img {
+        width: 41px;
+        height: 27px;
+
+    }
+
+    .quiren-div-galeria {
+        font-size: 15px;
+    }
+
+    .quiren-div-galeria img {
+        width: 50%;
+    }
+
+    .quiren-div-ubicacion {
+        width: 100%;
+        height: 600px;
+        margin-bottom: 80px;
+        border: none;
+    }
+
+    .quiren-div-ubicacion h2 {
+        font-size: 20px;
+    }
+
+    .quiren-div-ubicacion img {
+        width: 30%;
+
+    }
+
+    .iframe {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .quiren-div-certificados {
+        width: 100%;
+        height: 600px;
+        border-radius: 0%;
+        border: none;
+    }
+
+    .quiren-div-certificados h2 {
+        font-size: 20px;
+    }
+
+    .quiren-div-certificados p {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 10px;
+
+    }
+
+    .quiren-div-imagenes-certificados {
+        height: 150px;
+        display: flex;
+
+    }
+
+    .quiren-div-logo-nom {
+        height: 20%;
+        width: 60%;
+        display: flex;
+        margin: auto;
+
+    }
+
+    .quiren-div-logo-nom img {
+        width: 55px;
+        height: 55px;
+        margin: auto;
+
+    }
+
+    .quiren-div-logo-din {
+        margin: auto;
+        height: 20%;
+        width: 60%;
+        display: flex;
+        margin-top: 70px;
+
+    }
+
+    .quiren-div-logo-din img {
+        width: 37px;
+        height: 36px;
+        margin: auto;
+
+    }
+
+    .quiren-div-logo-iso {
+        margin: auto;
+        height: 20%;
+        width: 60%;
+        display: flex;
+        margin-top: 70px;
+
+    }
+
+    .quiren-div-logo-iso img {
+        width: 58px;
+        height: 33px;
+        margin: auto;
+    }
+
+    .quiren-div-logo-ansi {
+        margin: auto;
+        height: 20%;
+        width: 60%;
+        display: flex;
+    }
+
+    .quiren-div-logo-ansi img {
+        height: 52px;
+        width: 33px;
+        margin: auto;
+    }
+
+    .quiren-div-logo-nyce {
+        margin: auto;
+        height: 20%;
+        width: 60%;
+        display: flex;
+    }
+
+    .quiren-div-logo-nyce img {
+        height: 43px;
+        width: 43px;
+    }
+    /*modulo de contacto celular */
+    .quiren-div-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .quiren-div-titulo-contacto h2{
+        font-size: 20px;
+        
+
+    }
+    .quiren-img-linea-titulo-contacto {
+        /*el div verde abajo de contactanos */
+        width: 60%;
+        background: #009541;
+        border-radius: 2em;
+        position: absolute;
+        bottom: 100px;
+        /* Alinea eior del elemento padre (.quiren-div-titulo-contacto) */
+        left: 50%;
+        /* Centra el div horizontalmente */
+        transform: translateX(-50%);/
+    }
+
+    .quiren-div-izquierda{
+        width: 100%;
+        margin: 0; 
+        margin-top: 160px;
+    }
+    
+    
+    
+    .imagen-titulo-email{
+        height: 80%;
+        margin: auto;
+    }
+    
+
+    .quiren-div-texto-email{
+        text-align: center;
+        margin-left: 90px;
+        font-size: 9px;
+
+    }
+    .imagen-titulo-email{
+        height: 40%;
+        width: 30%;
+        margin: auto;
+        
+    }
+    .imagen-titulo-email img{
+        height: 24px;
+        width: 30px;
+    }
+    .imagen-titulo-email h3{
+        font-size: 15px;
+    }
+    .imagen-titulo-email h3:hover{
+        font-size: 17px;
+    }
+    .imagen-titulo-telefono{
+        height: 50%;
+        width: 20%;
+        margin: auto;
+        margin-right: 10%;
+        
+    }
+    .imagen-titulo-telefono img{
+        width: 18px;
+        height: 28px;
+
+    }
+    .imagen-titulo-telefono h3{
+        font-size: 15px;
+    }
+    .imagen-titulo-telefono h3:hover{
+        font-size: 17px;
+    }
+   
+    .quiren-div-telefono p{
+        text-align: center;
+        margin-left: 100px;
+        font-size: 9px;
+    }
+    
+   
+    
+    .quiren-div-texto-direccion{
+        text-align: center;
+        font-size: 9px;
+        margin-right:-90px;
+        
+    }
+    .imagen-titulo-direccion{
+        height: 50%;
+        width: 20%;
+        margin: auto;
+        margin-left: 20%;
+        
+
+    }
+    .imagen-titulo-direccion img{
+        width: 21px;
+        height: 30px;
+    }
+    .imagen-titulo-direccion h3{
+        font-size: 15px;
+    }
+    .imagen-titulo-direccion h3:hover{
+        font-size: 17px;
+    }
+    .grua{
+        display: block;
+    }
+    .grua1{
+        display:block;
+    }
+    .grua2{
+        display:block;
+    }
+    
+
+    .quiren-div-derecha{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    footer {
+        text-align: justify;
+        font-size: 12px;
+        margin: 12px;
+    }
+
+    .quiren-div-texto-final p {
+        font-size: 10px;
+    }
+
+    .quiren-div-texto-final img {
+        height: 10px;
+    }
+
+    .swiper-hero img {
+        height: 100px;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #282828;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .overlay p {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+    /*todo el mensaje de enviado */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+      /*editar todo el anuncio de mensaje enviado */
+      .modal-content {
+        background-image: url(imgs/FONDO-ENVIAR.png);
+        background-size: 100% 100%; /* Ajustar la imagen al tamaño del div */
+        background-repeat: no-repeat; /* Evitar que la imagen se repita */
+        margin: 60% auto;
+        padding: 20px;
+        border-radius: 5px;
+        width: 70%;
+        height: 30%;
+        text-align: center;
+        position: relative;
+      }
+      .mensaje-img{
+        width: 20%;
+        margin-top: 70px;
+        margin-left: 60px;
+      }
+    
+    #modalMessage{
+        font-size: 16px;
+        margin-left: 39%;
+        position: relative;
+        top: 19%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      /* Botón de cierre (×) en la esquina superior derecha */
+      .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+      }
+      .modal2 {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+      
+      .modal-content2 {
+        background-image: url(imgs/FONDO-ENVIAR.png);
+        background-size: 100% 100%; /* Ajustar la imagen al tamaño del div */
+        background-repeat: no-repeat; /* Evitar que la imagen se repita */
+        margin: 70% auto;
+        padding: 20px;
+        border-radius: 5px;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+        position: relative;
+      }
+      .mensaje-img2{
+        width: 20%;
+        margin-top: 30px;
+        margin-left: 70px;
+      }
+    
+    #modalMessage2{
+        font-size: 20px;
+        margin-left: 39%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      /* Botón de cierre (×) en la esquina superior derecha */
+      .close2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+      }
+          
+    
+}
